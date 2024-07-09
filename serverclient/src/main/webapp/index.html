@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Payara</title>
+
+        <style>
+            body {
+                background-image: linear-gradient(rgba(0,44,62), rgba(0,44,62,.8), rgba(0,44,62));
+                color: #fff;
+            }
+            a {
+                font-weight: bold;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <h1>JWT from Payara!</h1>
+        <p>
+            Demo de JWT con Payara
+        </p>
+<!--        <p>
+            <a href="https://www.payara.fish/"><img width="50%" src="images/payara-fish-logo.svg" alt="Payara Logo"></a>
+        </p>-->
+
+        <h2>RESTful Service</h2>
+        <p>
+            REST end-point esta disponible desde <a href="api/hello">api/hello</a>.
+            <br>
+            <br>
+            
+            Puede proporcionar un nombre al end-point usando un parametro de consulta como: <a href="api/hello?name=John">api/hello?name=John</a>
+        </p>
+
+
+
+
+        <h2>API Documentation</h2>
+        <p>
+            Explore the API documentation for the RESTful service using Swagger and OpenAPI. You can access the documentation at the following link:
+            <a href="swagger.html">Swagger and OpenAPI Documentation</a>
+        </p>
+
+        
+        
+        
+        <h2>MicroProfile</h2>
+
+        <a href="api/hello" target="_blank" >Hello JAX-RS endpoint</a> <br/>
+
+
+        <h3>Config</h3>
+        <a href="api/config/injected" target="_blank" >Injected config values</a> <br/>
+        <a href="api/config/lookup" target="_blank" >Config values by lookup</a> <br/>
+
+
+
+
+
+
+
+
+
+        <h3>JWT Auth</h3>
+        <a href="api/secured/test" target="_blank" >Call Secured endpoint with JWT in Authorization Header</a> <br/>
+
+
+
+
+
+
+
+        <h3>Rest Client</h3>
+        <a href="api/client/test/parameterValue" target="_blank" >Call REST endpoint using generated client based on interface</a> <br/>
+
+
+    </body>
+</html>
